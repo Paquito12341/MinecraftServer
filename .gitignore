@@ -1,0 +1,33 @@
+#Esto es para decirle a Git que archivos va a ignorar 
+
+# Minecraft server runtime files
+logs/
+crash-reports/
+cache/
+backups/
+*.log
+*.tmp
+
+# Local or sensitive server config
+eula.txt
+server.properties
+ops.json
+whitelist.json
+banned-players.json
+banned-ips.json
+usercache.json
+
+# Worlds are usually too large for GitHub
+world/
+world_nether/
+world_the_end/
+
+# Java/runtime artifacts
+*.jar
+libraries/
+versions/
+hs_err_pid*.log
+replay_pid*.log
+
+# Keep plugin config files, but avoid committing plugin binaries
+plugins/**/*.jar
