@@ -1,5 +1,9 @@
 #Esto es para decirle a Git que archivos va a ignorar 
 
+# Local IDE / console files
+.idea/
+.console_history
+
 # Minecraft server runtime files
 logs/
 crash-reports/
