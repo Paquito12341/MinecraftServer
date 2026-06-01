@@ -1,0 +1,15 @@
+name: ChickenCore
+version: 1.0
+main: com.ramon.chickencore.ChickenCore
+api-version: '1.21'
+
+commands:
+  PedroSanchez:
+    description: Primer comando del plugin
+    usage: /PedroSanchez
+
+
+    #Estas declarando el comando y la descripcion, es decir
+    # si alguien hace un /ramon, hara lo que tu digas
+    # y la descripcion es simplemente una nota informativa sobre el comando
+    # El programa funciona igual con o sin comentario, pero el comentario ayuda a entenderlo

@@ -1,37 +1,52 @@
 #Esto es para decirle a Git que archivos va a ignorar 
 
-# Local IDE / console files
+# IntelliJ
 .idea/
-.console_history
+*.iml
 
-# Minecraft server runtime files
+# VS Code
+.vscode/
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Logs
 logs/
-crash-reports/
-cache/
-backups/
 *.log
-*.tmp
 
-# Local or sensitive server config
-eula.txt
-server.properties
-ops.json
-whitelist.json
-banned-players.json
-banned-ips.json
-usercache.json
+# Minecraft Server
+server/cache/
+server/libraries/
+server/logs/
+server/versions/
+server/world/
+server/plugins/
+server/paper.jar
+server/banned-ips.json
+server/banned-players.json
 
-# Worlds are usually too large for GitHub
-world/
-world_nether/
-world_the_end/
+# Archivos generados
+server/usercache.json
+server/version_history.json
 
-# Java/runtime artifacts
-*.jar
-libraries/
-versions/
-hs_err_pid*.log
-replay_pid*.log
+# Configuración local
+server/eula.txt
+server/ops.json
+server/whitelist.json
 
-# Keep plugin config files, but avoid committing plugin binaries
-plugins/**/*.jar
+# Maven
+target/
+
+# Gradle
+.gradle/
+build/
+
+# Node
+node_modules/
+
+# Variables de entorno
+.env
+.env.*
+
+.console_history
